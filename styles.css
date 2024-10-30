@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+#img-div {
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+#img-caption {
+  margin-top: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+#tribute-info {
+  margin-bottom: 30px;
+}
+
+#tribute-info h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#tribute-info li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+#tribute-info li::before {
+  content: "•";
+  color: #3498db;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #3498db;
+  padding-left: 20px;
+  margin: 20px 0;
+  color: #34495e;
+}
+
+#tribute-link {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  background-color: #3498db;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 600px) {
+  #main {
+    padding: 15px;
+  }
+
+  #title {
+    font-size: 2em;
+  }
+}
